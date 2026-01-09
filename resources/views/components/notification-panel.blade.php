@@ -2,6 +2,6 @@
 
 <div>
     @foreach ($notifications as $note)
-        <p>{{ $note['title'] ?? 'No title' }}</p>
+        <p>{{ $note->title ?? 'No title' }}</p>
     @endforeach
 </div>
